@@ -1,0 +1,127 @@
+*{box-sizing: border-box;}
+.img_javascript{
+    width: 100%;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    height: 100hv;
+}
+.img_javascript figure{
+    position: relative;
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.50);
+    cursor: pointer;    
+}
+.img_javascript figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.img_javascript figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 245, 99, 0.6);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.img_javascript figure:hover > .capa{
+    opacity: 1;
+    visibility: visible;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+.img_javascript figure::hover > .capa h4{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+/*html*/
+.img_html{
+    width: 100%;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    height: 100hv;
+}
+.img_html figure{
+    position: relative;
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.50);
+    cursor: pointer;    
+}
+.img_html figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.img_html figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(252, 169, 74, 0.6);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.img_html figure:hover > .capa{
+    opacity: 1;
+    visibility: visible;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+.img_html figure::hover > .capa h4{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+/*css*/
+.img_css{
+    width: 100%;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    height: 100hv;
+}
+.img_css figure{
+    position: relative;
+    height: 400px;
+    width: 283px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.50);
+    cursor: pointer;    
+}
+.img_css figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.img_css figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(91, 143, 255, 0.418);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.img_css figure:hover > .capa{
+    opacity: 1;
+    visibility: visible;
+}
+.img_css figure::hover > .capa h4{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
